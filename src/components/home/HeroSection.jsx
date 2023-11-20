@@ -38,7 +38,7 @@ function HeroSection() {
               <p className="sm:text-base text-xs">
                 {projectsData[imageIndex].description}
               </p>
-              <h2 className="sm:text-5xl text-2xl font-bold mt-[10px]">
+              <h2 className="sm:text-5xl text-lg font-bold mt-[10px]">
                 {projectsData[imageIndex].title}
               </h2>
             </div>

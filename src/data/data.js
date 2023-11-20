@@ -17,8 +17,7 @@ export const projectsData = [
   {
     id: 2,
     title: "Apartment",
-    description:
-      "Experience urban living at its finest in our contemporary apartments",
+    description: "Experience urban living at its finest in our apartments",
     image: image2,
   },
   {
@@ -56,7 +55,7 @@ export const projectsData = [
     id: 8,
     title: "New Cairo",
     description:
-      "Experience the allure of a vibrant community and modern lifestyle in the heart of New Cairo",
+      "Experience the allure of a vibrant community in the heart of New Cairo",
     image: image8,
   },
 ];
