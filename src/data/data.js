@@ -66,3 +66,29 @@ export const headerData = [
   { id: 3, title: "About", to: "/about" },
   { id: 4, title: "Contact", to: "/contact" },
 ];
+
+export const clientTestimonialsData = [
+  {
+    id: 1,
+    number: "8000",
+    title: "Clients",
+    description:
+      "Proudly serving a huge number of satisfied clients from different nationalities",
+  },
+
+  {
+    id: 2,
+    number: "350",
+    title: "Projects",
+    description:
+      "Consultancy in many real estate projects of all types all over Egypt",
+  },
+
+  {
+    id: 3,
+    number: "6",
+    title: "Years",
+    description:
+      "Profound knowledge and extensive experience throughout the years in real estate field",
+  },
+];

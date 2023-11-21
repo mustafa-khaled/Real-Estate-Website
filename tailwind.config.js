@@ -7,7 +7,7 @@ export default {
         white: "#fff",
         primary: "#DCAC36",
         secondary: "#0D0D0D",
-        gray: "rgba(255, 255, 255, 0.1)",
+        gray: "rgba(255, 255, 255, 0.75)",
       },
     },
   },

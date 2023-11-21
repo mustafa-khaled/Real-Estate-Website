@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { headerData } from "../data/data";
-import { MdOutlineDehaze } from "react-icons/md";
+import { MdOutlineDehaze, MdClose } from "react-icons/md";
+
 import logo from "/logo.png";
 
 function Header() {
@@ -57,11 +58,12 @@ function Header() {
             );
           })}
         </ul>
-        <div className="md:hidden block">
-          <MdOutlineDehaze
-            className="text-xl cursor-pointer"
-            onClick={handleToggleHeader}
-          />
+        <div className="md:hidden block" onClick={handleToggleHeader}>
+          {isActive ? (
+            <MdClose className="text-xl cursor-pointer" />
+          ) : (
+            <MdOutlineDehaze className="text-xl cursor-pointer" />
+          )}
         </div>
       </div>
     </header>

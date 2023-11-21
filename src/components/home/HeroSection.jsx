@@ -44,19 +44,20 @@ function HeroSection() {
             </div>
 
             {/* Next and prev buttons */}
+
             <button
-              onClick={showPrevImage}
-              style={{ transition: "backgroundColor 100ms ease-in-out" }}
-              className="text-gray-400 hover:text-gray-100 absolute bottom-0 left-0 top-0 block
-        cursor-pointer rounded-xl p-[1rem] text-4xl transition duration-100 ease-in-out">
+              className="absolute sm:left-[10px] left-0 top-[50%] translate-y-[-50%] hover:text-[#ccc] p-[10px]
+               sm:border-l border-[#ccc] hover:translate-x-[-10px]"
+              style={{ transition: "all 100ms ease-in-out" }}
+              onClick={showPrevImage}>
               <MdArrowBackIosNew className="text-2xl" />
             </button>
 
             <button
-              onClick={showNextImage}
-              style={{ transition: "backgroundColor 100ms ease-in-out" }}
-              className="text-gray-400 hover:text-gray-100 absolute bottom-0 right-0 top-0 block cursor-pointer
-      rounded-xl p-[1rem] text-4xl transition duration-100 ease-in-out">
+              className="absolute sm:right-[10px] right-0 top-[50%] translate-y-[-50%] hover:text-[#ccc] p-[10px] 
+              sm:border-r border-[#ccc] hover:translate-x-[10px]"
+              style={{ transition: "all 100ms ease-in-out" }}
+              onClick={showNextImage}>
               <MdArrowForwardIos className="text-2xl" />
             </button>
           </div>
