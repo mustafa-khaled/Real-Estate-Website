@@ -1,11 +1,13 @@
+import Projects from "../Projects";
 import MainHead from "../mainHead/MainHead";
 
-function Projects() {
+function ProjectsSection() {
   return (
     <div className="bg-lightGray text-white py-[80px]">
       <MainHead>Projects</MainHead>
+      <Projects />
     </div>
   );
 }
 
-export default Projects;
+export default ProjectsSection;
