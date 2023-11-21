@@ -1,8 +1,8 @@
-import { clientTestimonialsData } from "../../data/data";
+import { clientTestimonialsData } from "../data/data";
 
 function ClientTestimonials() {
   return (
-    <div className="bg-secondary text-white py-[70px]">
+    <div className="bg-secondary text-white py-[80px]">
       <div className="container mx-auto px-[10px] flex  lg:flex-row flex-col lg:gap-0 gap-[20px]">
         {clientTestimonialsData.map((el) => {
           return (

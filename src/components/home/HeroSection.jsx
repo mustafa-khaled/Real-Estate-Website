@@ -51,7 +51,7 @@ function HeroSection() {
             {/* Next and prev buttons */}
 
             <button
-              className="absolute sm:left-[10px] left-0 top-[50%] translate-y-[-50%] hover:text-[#ccc] p-[10px]
+              className="absolute sm:left-[10px] left-0 top-[50%] translate-y-[-50%] hover:text-gray p-[10px]
                sm:border-l border-[#ccc] hover:translate-x-[-10px]"
               style={{ transition: "all 100ms ease-in-out" }}
               onClick={showPrevImage}>
@@ -59,8 +59,8 @@ function HeroSection() {
             </button>
 
             <button
-              className="absolute sm:right-[10px] right-0 top-[50%] translate-y-[-50%] hover:text-[#ccc] p-[10px] 
-              sm:border-r border-[#ccc] hover:translate-x-[10px]"
+              className="absolute sm:right-[10px] right-0 top-[50%] translate-y-[-50%] hover:text-gray p-[10px] 
+              sm:border-r border-gray hover:translate-x-[10px]"
               style={{ transition: "all 100ms ease-in-out" }}
               onClick={showNextImage}>
               <MdArrowForwardIos className="text-2xl" />
