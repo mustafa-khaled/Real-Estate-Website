@@ -1,0 +1,42 @@
+.main-head::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 70px;
+  height: 2px;
+  background-color: #dcac36;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  animation: widthAnimation 2s ease-in-out infinite;
+}
+
+.main-head::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 25px;
+  height: 3px;
+  background-color: #161616;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+@keyframes widthAnimation {
+  0% {
+    width: 70px;
+  }
+  50% {
+    width: 90px;
+  }
+  100% {
+    width: 70px;
+  }
+}
