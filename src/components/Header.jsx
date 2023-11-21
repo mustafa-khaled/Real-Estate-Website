@@ -34,7 +34,9 @@ function Header() {
 
   return (
     <header
-      className={`h-[80px] text-white w-full fixed z-50 flex items-center border-b border-gray ${
+      className={`h-[80px] text-white w-full fixed z-50 flex items-center ${
+        !isScrolled && "border-b"
+      }  border-gray ${
         isScrolled || isActive ? "bg-secondary" : "md:bg-transparent"
       }`}>
       <div className="container relative mx-auto px-[20px] flex items-center justify-between">

@@ -3,6 +3,8 @@ import { projectsData } from "../../data/data";
 import { MdArrowForwardIos } from "react-icons/md";
 import { MdArrowBackIosNew } from "react-icons/md";
 
+import Button from "../Button";
+
 function HeroSection() {
   const [imageIndex, setImageIndex] = useState(0);
 
@@ -34,13 +36,16 @@ function HeroSection() {
             {/* Content */}
             <div
               className="text-center h-full flex items-center justify-center flex-col
-               w-[80%] mx-auto p-[20px] uppercase relative">
+               w-[80%] mx-auto p-[20px] uppercase relative gap-[20px]">
               <p className="sm:text-base text-xs">
                 {projectsData[imageIndex].description}
               </p>
-              <h2 className="sm:text-5xl text-lg font-bold mt-[10px]">
+              <h2 className="md:text-7xl sm:text-4xl text-lg  font-bold">
                 {projectsData[imageIndex].title}
               </h2>
+              <div>
+                <Button>See Projects</Button>
+              </div>
             </div>
 
             {/* Next and prev buttons */}
