@@ -7,6 +7,10 @@ import image6 from "../Assets/medical.jpg";
 import image7 from "../Assets/woman-working-pharmacy-wearing-coat.jpg";
 import image8 from "../Assets/new-cairo-city.jpg";
 
+import experienceIcon from "../Assets/experience-iconnn.png";
+import trustIcon from "../Assets/trust-icon.png";
+import varietyIcon from "../Assets/variety-icon.png";
+
 export const projectsData = [
   {
     id: 1,
@@ -90,5 +94,33 @@ export const clientTestimonialsData = [
     title: "Years",
     description:
       "Profound knowledge and extensive experience throughout the years in real estate field",
+  },
+];
+
+export const aboutUsData = [
+  {
+    id: 1,
+    title: "Experience",
+    image: experienceIcon,
+    description:
+      "Based on our extensive experience and resources, we provide sincere consultancy you can depend on to help you with your investment and property buying decisions.",
+    bgColor: "#222222",
+  },
+  {
+    id: 2,
+    title: "Trust",
+    image: trustIcon,
+    description:
+      "We have built a reputation through meaningful communication and honesty with our clients. We are trusted to fulfill promises and take care of our clients’ concerns.",
+    bgColor: "#141414",
+  },
+
+  {
+    id: 3,
+    title: "Variety",
+    image: varietyIcon,
+    description:
+      "We specialize in various projects that offer all types of units such as apartments, penthouses, villas, commercial, administrative, and medical units.",
+    bgColor: "#222222",
   },
 ];

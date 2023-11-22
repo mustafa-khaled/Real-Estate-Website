@@ -5,24 +5,26 @@ import Button from "./Button";
 function Projects() {
   return (
     <div className="container mx-auto px-[10px] font-bold">
-      <h3 className="text-center uppercase">
+      <h3 className="text-center uppercase font-bold sm:text-xl text-lg">
         Discover a Broad Range Of Units That Will Suit Your Needs
       </h3>
 
-      <div className="flex items-start gap-[20px] flex-wrap mt-[20px] lg:w-[90%] w-full mx-auto">
+      <div className="flex items-start gap-[20px] flex-wrap mt-[40px] lg:w-[90%] w-full mx-auto">
         {projectsData.map((p) => {
           return (
             <div
               key={p.id}
-              className="bg-[#262626] hover:bg-[#333333] md:w-[calc(50%-20px)] w-full">
+              className="bg-[#262626] hover:bg-[#333333] md:w-[calc(50%-20px)] w-full min-h-[500px]">
               <img
                 src={p.image}
                 alt={p.description}
-                className="w-full h-[300px] object-cover"
+                className="w-full sm:h-[300px] h-[250px] object-cover"
               />
               <div className="p-[20px] ">
-                <h4>{p.title}</h4>
-                <p className="my-[20px] text-gray">{p.description}</p>
+                <h4 className="uppercase text-xl font-bold">{p.title}</h4>
+                <p className="my-[20px] text-gray md:text-base text-sm">
+                  {p.description}
+                </p>
                 <Link to={"/projects"}>
                   <Button>See More!</Button>
                 </Link>

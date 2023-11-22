@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   height: 1000vh;
 }
 
