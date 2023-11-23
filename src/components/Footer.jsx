@@ -15,7 +15,7 @@ function Footer() {
             {headerData.map((el) => {
               return (
                 <li key={el.id} className="text-gray text-sm mb-[10px]">
-                  <Link>{el.title}</Link>
+                  <Link to={el.to}>{el.title}</Link>
                 </li>
               );
             })}
