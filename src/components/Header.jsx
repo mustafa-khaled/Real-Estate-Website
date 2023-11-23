@@ -17,8 +17,8 @@ function Header() {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
 
-      // Check if the user has scrolled past a certain threshold (e.g., 100px)
-      if (scrollTop > 100) {
+      // Check if the user has scrolled past a certain threshold (e.g., 50px)
+      if (scrollTop > 50) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
