@@ -36,7 +36,7 @@ function HeroSection() {
             {/* Content */}
             <div
               className="text-center h-full flex items-center justify-center flex-col
-               w-[80%] mx-auto p-[20px] uppercase relative gap-[20px]">
+               w-[80%] mx-auto p-[20px] uppercase relative md:gap-[20px] gap-[10px]">
               <p className="sm:text-base text-xs">
                 {projectsData[imageIndex].description}
               </p>
@@ -59,7 +59,7 @@ function HeroSection() {
             </button>
 
             <button
-              className="absolute sm:right-[10px] right-0 top-[50%] translate-y-[-50%] hover:text-gray p-[10px] 
+              className="absolute sm:right-[10px] right-0 top-[50%] translate-y-[-50%] hover:text-gray p-[10px]
               sm:border-r border-gray hover:translate-x-[10px]"
               style={{ transition: "all 100ms ease-in-out" }}
               onClick={showNextImage}>

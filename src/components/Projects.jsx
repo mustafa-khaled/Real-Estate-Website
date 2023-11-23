@@ -14,7 +14,7 @@ function Projects() {
           return (
             <div
               key={p.id}
-              className="bg-[#262626] hover:bg-[#333333] md:w-[calc(50%-20px)] w-full min-h-[500px]">
+              className="bg-[#262626] hover:bg-[#333333] md:w-[calc(50%-20px)] w-full md:min-h-[500px] min-h-[400px]">
               <img
                 src={p.image}
                 alt={p.description}
