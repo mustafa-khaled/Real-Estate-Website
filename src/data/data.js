@@ -11,6 +11,13 @@ import experienceIcon from "../Assets/experience-iconnn.png";
 import trustIcon from "../Assets/trust-icon.png";
 import varietyIcon from "../Assets/variety-icon.png";
 
+import {
+  FaFacebookSquare,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
+
 export const projectsData = [
   {
     id: 1,
@@ -123,4 +130,11 @@ export const aboutUsData = [
       "We specialize in various projects that offer all types of units such as apartments, penthouses, villas, commercial, administrative, and medical units.",
     bgColor: "#222222",
   },
+];
+
+export const footerIcons = [
+  { id: 1, icon: FaFacebookSquare },
+  { id: 2, icon: FaInstagram },
+  { id: 3, icon: FaLinkedin },
+  { id: 4, icon: FaTwitter },
 ];

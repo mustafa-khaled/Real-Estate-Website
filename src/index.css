@@ -4,11 +4,10 @@
 
 body {
   letter-spacing: 1px;
-  height: 1000vh;
 }
 
 button {
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 /* Add special styles to the active link */
