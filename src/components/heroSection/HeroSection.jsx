@@ -9,7 +9,9 @@ function HeroSection({ page }) {
         className={styles.background}
         style={{ backgroundImage: `url(${photo})` }}></div>
       <div className="relative z-10">
-        <h1 className="sm:text-5xl text-3xl uppercase font-bold">{page}</h1>
+        <h1 className="sm:text-5xl text-3xl uppercase font-bold mb-[15px]">
+          {page}
+        </h1>
         <p>
           <span className="text-primary">Home</span> {">"} {page}
         </p>

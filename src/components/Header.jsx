@@ -60,7 +60,7 @@ function Header() {
                 <NavLink
                   to={l.to}
                   onClick={handleCloseHeader}
-                  className="relative">
+                  className="relative hover:text-primary transition-all ease-in-out">
                   {l.title}
                 </NavLink>
               </li>

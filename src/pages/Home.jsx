@@ -2,11 +2,11 @@ import HeroSection from "../components/home/HeroSection";
 import ClientTestimonials from "../components/ClientTestimonials";
 import ProjectsSection from "../components/home/ProjectsSection";
 import AboutUs from "../components/AboutUs";
-import RequestCallback from "../components/home/RequestCallback";
+import RequestCallback from "../components/RequestCallback";
 
 function Home() {
   return (
-    <div>
+    <div className="bg-secondary">
       <HeroSection />
       <ClientTestimonials />
       <ProjectsSection />
