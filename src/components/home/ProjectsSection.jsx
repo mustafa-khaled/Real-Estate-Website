@@ -3,7 +3,7 @@ import MainHead from "../mainHead/MainHead";
 
 function ProjectsSection() {
   return (
-    <div className="bg-lightGray text-white py-[80px]">
+    <div className="bg-lightGray text-white py-[40px]">
       <MainHead>Projects</MainHead>
       <Projects />
     </div>
