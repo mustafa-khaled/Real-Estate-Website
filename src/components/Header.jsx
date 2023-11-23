@@ -13,6 +13,10 @@ function Header() {
     setIsActive((prevState) => !prevState);
   };
 
+  const handleCloseHeader = () => {
+    setIsActive(false);
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
@@ -53,7 +57,10 @@ function Header() {
           {headerData.map((l) => {
             return (
               <li key={l.id}>
-                <NavLink to={l.to} className="relative">
+                <NavLink
+                  to={l.to}
+                  onClick={handleCloseHeader}
+                  className="relative">
                   {l.title}
                 </NavLink>
               </li>
