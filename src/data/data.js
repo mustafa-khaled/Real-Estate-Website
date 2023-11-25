@@ -138,3 +138,32 @@ export const footerIcons = [
   { id: 3, icon: FaLinkedin },
   { id: 4, icon: FaTwitter },
 ];
+
+export const formData = [
+  {
+    id: 1,
+    name: "firstName",
+    type: "text",
+    placeholder: "First Name",
+  },
+  {
+    id: 2,
+    name: "lastName",
+    type: "text",
+    placeholder: "Last Name",
+  },
+
+  {
+    id: 3,
+    name: "phone",
+    type: "number",
+    placeholder: "Your Phone",
+  },
+
+  {
+    id: 4,
+    name: "email",
+    type: "email",
+    placeholder: "Your Email (optional)",
+  },
+];
