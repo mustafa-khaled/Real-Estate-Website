@@ -16,7 +16,9 @@ function Footer() {
               <h2 className="text-xl uppercase font-bold mb-[20px]">Menu</h2>
               {headerData.map((el) => {
                 return (
-                  <li key={el.id} className="text-gray text-sm mb-[10px]">
+                  <li
+                    key={el.id}
+                    className="relative text-gray text-sm mb-[10px] hover:text-primary transition-all hover:translate-x-[10px] ">
                     <Link to={el.to}>{el.title}</Link>
                   </li>
                 );

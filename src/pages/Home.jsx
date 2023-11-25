@@ -6,7 +6,7 @@ import RequestCallback from "../components/RequestCallback";
 
 function Home() {
   return (
-    <div className="bg-secondary">
+    <div>
       <HeroSection />
       <ClientTestimonials />
       <ProjectsSection />

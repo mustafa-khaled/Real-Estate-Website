@@ -11,6 +11,10 @@ import experienceIcon from "../Assets/experience-iconnn.png";
 import trustIcon from "../Assets/trust-icon.png";
 import varietyIcon from "../Assets/variety-icon.png";
 
+import phone from "../Assets/phone.png";
+import email from "../Assets/email.png";
+import location from "../Assets/location-1.png";
+
 import {
   FaFacebookSquare,
   FaInstagram,
@@ -166,4 +170,10 @@ export const formData = [
     type: "email",
     placeholder: "Your Email (optional)",
   },
+];
+
+export const contactInfoData = [
+  { id: 1, title: "+20 1151747091", image: phone },
+  { id: 2, title: "mustafakhaledinfo@gmail.com", image: email },
+  { id: 3, title: "Cairo, Egypt", image: location },
 ];
