@@ -9,6 +9,8 @@ function ClientTestimonials() {
           {clientTestimonialsData.map((el) => {
             return (
               <div
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom"
                 key={el.id}
                 className="w-full flex items-center lg:flex-row flex-col lg:text-left text-center ">
                 <div

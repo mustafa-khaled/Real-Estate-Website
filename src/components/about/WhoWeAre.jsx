@@ -6,7 +6,9 @@ function WhoWeAre() {
     <div className="bg-secondary">
       <div className="text-container mx-auto px-[10px] text-white">
         <div className="relative sm:w-[80%] w-full mx-auto top-[-100px]">
-          <div className=" flex md:flex-row flex-col bg-[#222222] ">
+          <div
+            data-aos="flip-left"
+            className=" flex md:flex-row flex-col bg-[#222222] ">
             <img
               src={photo1}
               alt="office"
@@ -25,7 +27,9 @@ function WhoWeAre() {
             </div>
           </div>
 
-          <div className="flex md:flex-row flex-col-reverse  mt-[30px] bg-[#222222] ">
+          <div
+            data-aos="flip-right"
+            className="flex md:flex-row flex-col-reverse  mt-[30px] bg-[#222222] ">
             <div className="flex  justify-center flex-col md:p-[50px] p-[30px]">
               <h2 className="sm:text-3xl text-2xl uppercase font-bold mb-[10px]">
                 Our Vision

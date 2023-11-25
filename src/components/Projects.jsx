@@ -16,6 +16,8 @@ function Projects() {
             {projectsData.map((p) => {
               return (
                 <div
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
                   key={p.id}
                   className="bg-[#262626] hover:bg-[#333333] md:w-[calc(50%-20px)] w-full md:min-h-[500px] min-h-[400px]">
                   <img
