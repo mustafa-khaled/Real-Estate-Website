@@ -27,3 +27,9 @@ Welcome to our Real Estate Website! This platform is designed to provide users w
 - **Tailwind CSS Styling**: Leveraging Tailwind CSS, our website's design emphasizes responsiveness and aesthetic appeal, providing a visually appealing and cohesive look across all pages.
 
 ## Technologies Used
+
+- **React.js**: Employed for building a dynamic, responsive, and interactive user interface, enabling smooth transitions between different pages and components.
+
+- **Tailwind CSS**: Tailwind CSS is utilized extensively for styling, offering a streamlined and visually pleasing design while maintaining flexibility and responsiveness.
+
+- **Seamless Scrolling and Animations**: Achieved through React libraries and custom CSS to provide an immersive and visually stimulating experience while browsing the website.
