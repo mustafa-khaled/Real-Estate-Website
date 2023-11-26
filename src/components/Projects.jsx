@@ -30,7 +30,7 @@ function Projects() {
                     <p className="my-[20px] text-gray md:text-base text-sm">
                       {p.description}
                     </p>
-                    <Link to={"/projects"}>
+                    <Link to={p.to}>
                       <Button>See More!</Button>
                     </Link>
                   </div>

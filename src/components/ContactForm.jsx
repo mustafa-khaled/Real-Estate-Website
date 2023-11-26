@@ -54,8 +54,8 @@ function ContactForm() {
           </div>
           <form onSubmit={handleSubmit}>
             <div
-              className="mt-[20px] :grid sm:grid-cols-[repeat(auto-fill,minmax(250px,1fr))] 
-            grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))]
+              className="mt-[20px] grid sm:grid-cols-[repeat(auto-fill,minmax(250px,1fr))] 
+             grid-cols-[repeat(auto-fill,minmax(200px,1fr))]
             gap-[20px]">
               {formData.map((el) => (
                 <div key={el.id}>

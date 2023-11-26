@@ -4,6 +4,7 @@ import { MdArrowForwardIos } from "react-icons/md";
 import { MdArrowBackIosNew } from "react-icons/md";
 
 import Button from "../Button";
+import { Link } from "react-router-dom";
 
 function HeroSection() {
   const [imageIndex, setImageIndex] = useState(0);
@@ -44,7 +45,9 @@ function HeroSection() {
                 {projectsData[imageIndex].title}
               </h2>
               <div>
-                <Button>See Projects</Button>
+                <Link to={"/projects"}>
+                  <Button>See Projects</Button>
+                </Link>
               </div>
             </div>
 

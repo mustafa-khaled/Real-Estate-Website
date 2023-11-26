@@ -81,36 +81,42 @@ export const projectsData = [
     title: "Villa",
     description: "Settle In a Modern Villa With Your Family",
     image: image1,
+    to: "/projects/villa",
   },
   {
     id: 2,
     title: "Apartment",
     description: "Experience urban living at its finest in our apartments",
     image: image2,
+    to: "/projects/apartment",
   },
   {
     id: 3,
     title: "Hotel Apartment",
     description: "Discover unlimited options and move to the new capital city",
     image: image3,
+    to: "/projects/hotelApartment",
   },
   {
     id: 4,
     title: "Commercial",
     description: "Open your new store in Egypt's best city",
     image: image4,
+    to: "/projects/commercial",
   },
   {
     id: 5,
     title: "Administrative",
     description: "Your new office in a modern work environment",
     image: image5,
+    to: "/projects/administrative",
   },
   {
     id: 6,
     title: "Medical",
     description: "Medical units available with different facilities",
     image: image6,
+    to: "/projects/medical",
   },
   {
     id: 7,
@@ -118,6 +124,7 @@ export const projectsData = [
     description:
       "Healthcare made easy with pharmacies units with different facilities",
     image: image7,
+    to: "/projects/pharmacies",
   },
   {
     id: 8,
@@ -125,6 +132,7 @@ export const projectsData = [
     description:
       "Experience the allure of a vibrant community in the heart of New Cairo",
     image: image8,
+    to: "/projects/newCairo",
   },
 ];
 
